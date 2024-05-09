@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/home.css">
+        <title>Student</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="welcomeMsg"></h1>
+            <div class="monthSelectionContainer">
+                <label for="month-filter">Month:</label>
+                <select id="month-filter">
+                    <option value="select" disabled selected>Select</option>
+                </select>
+            </div>
+        </header>
+        <main>
+            <table id="grades-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Lesson Type</th>
+                        <th>Grade</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody id="gradesContainer">
+
+                </tbody>
+                <tfoot>
+                    <tr id="summaryContainer">
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <button class="logoutbtnstudent">Log Out</button>
+        </main>
+        <script src="./scrpt/home.js" type="module"></script>
+    </body>
+</html>

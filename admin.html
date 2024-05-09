@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/admin.css">
+        <title>Admin panel</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome, Admin!</h1>
+            <div class="users-list">
+                <h2>Sweet students here</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Date</th>
+                            <th>Lesson Type</th>
+                            <th>Grade</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody id="userTable">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="btns">
+                <button id="submitBtn">Submit</button>
+                <button class="logoutbtnadmin">Log Out</button>
+            </div>
+        </div>
+        <script src="./scrpt/admin.js" type="module"></script>
+    </body>
+</html>
